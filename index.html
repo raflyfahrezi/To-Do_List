@@ -1,26 +1,38 @@
 <html lang="en">
     <head>
+        <link rel="shortcut icon" type="image/png" href="./assets/pict/correct.png">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
-        <title>Drag and Drop</title>
-        <link rel="stylesheet" href="style.css">
+        <title>To Do List</title>
+        <link rel="stylesheet" href="./assets/style.css">
     </head>
     <body>
         <div class="app">
             <div class="header">
-                <h1>Drag and Drop</h1>
+                <h1 class="title">To Do List</h1>
             </div>
             <div class="lists">
                 <div class="list">
+                    <div class="list-header">
+                        <label class="list-header-label">Thing`s To Do</label>
+                    </div>
                     <div class="list-item" draggable="true">List Item 1</div>
                     <div class="list-item" draggable="true">List Item 2</div>
                     <div class="list-item" draggable="true">List Item 3</div>
                 </div>
-                <div class="list"></div>
-                <div class="list"></div>
+                <div class="list">
+                    <div class="list-header">
+                        <label class="list-header-label">Doing</label>
+                    </div>
+                </div>
+                <div class="list">
+                    <div class="list-header">
+                        <label class="list-header-label">Done</label>
+                    </div>
+                </div>
             </div>
         </div>
     </body>
-    <script src="./script.js"></script>
+    <script src="./assets/script.js"></script>
 </html>
