@@ -46,7 +46,19 @@ body{
     background-color: rgba(0, 0, 0, 0.1);
     margin: 0px auto;
     padding: 8px;
-    transition: all 0.2s linear;
+    transition: all 0.5s linear;
+}
+
+.listone{
+    height: auto;
+}
+
+.listtwo{
+    height: auto;
+}
+
+.listthree{
+    height: auto;
 }
 
 .list-header{
